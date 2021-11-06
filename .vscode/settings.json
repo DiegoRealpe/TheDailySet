@@ -22,5 +22,15 @@
             "javadoc": "https://docs.oracle.com/en/java/javase/17/docs/api",
         }
     ],
-    "java.home": "/home/this/JavaJDK/amazon-corretto-11.0.13.8.1-linux-x64"
+    "java.home": "/home/diegort/JavaJDK/amazon-corretto-11.0.13.8.1-linux-x64",
+    "editor.fontFamily": "Space Mono for Powerline",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 11,
+    "editor.inlineHints.fontFamily": "Space Mono for Powerline",
+    "editor.codeLensFontFamily": "Space Mono for Powerline",
+    "explorer.confirmDragAndDrop": false,
+    "java.help.firstView": "gettingStarted",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
