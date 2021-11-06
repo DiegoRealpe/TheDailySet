@@ -1,4 +1,26 @@
 {
     "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin"
+    "java.project.outputPath": "bin",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/home/this/JavaJDK/amazon-corretto-8.312.07.1-linux-aarch64",
+            "sources": "/home/this/JavaJDK/amazon-corretto-8.312.07.1-linux-aarch64/lib/src.zip",
+            "javadoc": "https://docs.oracle.com/javase/8/docs/api/",
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "/home/this/JavaJDK/amazon-corretto-11.0.13.8.1-linux-x64",
+            "sources": "/home/this/JavaJDK/amazon-corretto-11.0.13.8.1-linux-x64/lib/src.zip",
+            "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api",
+            "default": true
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "/home/this/JavaJDK/amazon-corretto-17.0.1.12.1-linux-x64",
+            "sources": "/home/this/JavaJDK/amazon-corretto-17.0.1.12.1-linux-x64/lib/src.zip",
+            "javadoc": "https://docs.oracle.com/en/java/javase/17/docs/api",
+        }
+    ],
+    "java.home": "/home/this/JavaJDK/amazon-corretto-11.0.13.8.1-linux-x64"
 }
